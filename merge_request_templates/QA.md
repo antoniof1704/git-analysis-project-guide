@@ -1,4 +1,3 @@
-
 > Fill in the following sections when undertaking a merge request, according to
 > whether you are the analyst or the QA reviewer.
 > Do not rename section headings or field labels.
@@ -8,13 +7,13 @@
 ## Analyst
 
 ### Summary
-- Title of code changes:
-- Analyst name:
+- *Title of code changes*: **Enter TEXT HERE (Analyst)**
+- *Analyst name*: **Enter TEXT HERE (Analyst)**
 
 ---
 
 ### Description of changes
-(What changed and why)
+**Enter TEXT HERE (Analyst)**
 
 ---
 
@@ -30,10 +29,11 @@
 ---
 
 ### QA details
-- QA analyst:
-- QA comments:
+- *QA analyst*: **Enter TEXT HERE (QA Analyst)**
+- *QA comments*: **Enter TEXT HERE (QA Analyst)**
 
 > If any issues remain unresolved, clearly state them here and do not merge.
+**Enter TEXT HERE (QA Analyst)**
 
 ---
 
