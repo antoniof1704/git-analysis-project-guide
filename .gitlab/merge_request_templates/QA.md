@@ -29,11 +29,11 @@
 ---
 
 ### QA details
-- *QA analyst*: **Enter TEXT HERE (QA Analyst)**
-- *QA comments*: **Enter TEXT HERE (QA Analyst)**
+- *QA analyst*: **Enter TEXT HERE (QA reviewer)**
+- *QA comments*: **Enter TEXT HERE (QA reviewer)**
 
 > If any issues remain unresolved, clearly state them here and do not merge.
-**Enter TEXT HERE (QA Analyst)**
+**Enter TEXT HERE (QA reviewer)**
 
 ---
 
