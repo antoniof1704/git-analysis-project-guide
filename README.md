@@ -115,35 +115,66 @@ Before making changes, it is important to understand the core branches in the re
 - `main` is the original branch and should never be edited directly. Only the `dev` branch should be merged into `main` periodically, to act as a backup of `dev`.
 - `dev` is branched off from `main` and acts as the primary working branch that other changes are merged into. It should not be edited directly either.
 
-### Making Changes
+### Workflow for Making Changes
 
-If you want to make changes or contribute to the project, please ensure you create a new branch from the `dev` branch (which should contain the most up-to-date code) to make your edits and test their functionality.
+To contribute to the project, always create a **new branch from `dev`**.
 
-This can be done using the following commands in your R terminal. Please run each line one at a time:
+#### 1. Sync your repository
+
+Run the following before starting work (do this regularly):
 
 ```
-git branch
+git fetch origin
 
+git status
+```
+
+ * `git fetch origin` retrieves the latest updates from the remote repository
+ * `git status` confirms:
+    * Your current branch
+    * Whether you are up to date
+    * Any staged/unstaged changes
+
+#### 2. Create a new branch from dev
+
+```
 git checkout dev
 
 git pull origin dev
 
-git checkout -b <your new branch name>
+git checkout -b <your-branch-name>
 
+git push -u origin <your-branch-name>
 ```
 
-This should create a new local branch with the same code as the `dev` branch (at the point of branching)
+This will:
 
-If you want to push changes made in your test branch to the repository, please run the following line in your R terminal:
+ * Switch to dev
+ * Pull the latest version of dev
+ * Create a new branch from dev
+ * Push the new branch to the remote and enable tracking
 
+
+#### 3. Make and push your changes
+
+Once you’ve made your updates:
 ```
-git add -a
+git status
 
-git commit -m "DESCITPION OF CHANGES"
+git add -A
 
-git push -u origin <your new branch name>
+git commit -m "DESCRIPTION OF CHANGES"
 
+git push origin <your-branch-name>
 ```
+
+ * git status: Confirm you are on the correct branch
+ * git add -A: Stage all changes
+ * git commit: Save changes with a clear message
+ * git push: Upload changes to the remote repository
+
+
+#### 4. Merging your changes to dev
 
 Once your branch has been pushed to the remote repository, create a merge request by selecting **“New merge request”** in GitLab.
 Ensure:
