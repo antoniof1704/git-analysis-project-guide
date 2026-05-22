@@ -20,6 +20,7 @@ Provide the overall project timeline or key milestones.
 ## Table of Contents
 
 - [Access & Technology Requirements](#access-technology-requirements)
+- [Information & Data Sources](#information-data-sources)
 - [Key Outputs](#key-outputs)
 - [Key People](#key-people)
 - [How to Run Analysis](#how-to-run-analysis)
@@ -40,7 +41,7 @@ List any systems, tools, or permissions required to deliver the project.
 |                  |             |
 
 
-## Information & Data Sources
+## Information & Data Sources <a name = 'information-data-sources'></a>
 Details of where relevant files, data, and code are stored.
 
 ### Shared File Areas
